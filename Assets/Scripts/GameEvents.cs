@@ -1,18 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameEvents : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Events of the Paths' Room
+    public delegate void HideScrollView();
+    public static event HideScrollView hsv;
 
-    // Update is called once per frame
-    void Update()
+    public void HSV()
     {
-        
+        hsv();
     }
 }

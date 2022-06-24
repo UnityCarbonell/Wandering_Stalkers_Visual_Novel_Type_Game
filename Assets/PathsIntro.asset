@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   narrativeText: "As\xED que aqu\xED estamos. \nEn tu habitaci\xF3n. \nTe acabas
     de despertar, por si no te hab\xEDas dado cuenta. \xBFQu\xE9 har\xE1s ahora?"
-  optionOne: 
-  optionTwo: 
+  optionOne: 0
+  optionTwo: 0
   refsArray: 0000000000000000
   quitButtons: 1
