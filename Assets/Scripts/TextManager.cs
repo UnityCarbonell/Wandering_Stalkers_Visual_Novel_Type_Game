@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class TextManager : MonoBehaviour
@@ -6,26 +7,72 @@ public class TextManager : MonoBehaviour
     [SerializeField] TextTemplate template;
     [SerializeField] TextTemplate[] templatesArray;
 
-    [SerializeField] TextMeshProUGUI narrativeText;
-    [SerializeField] TextMeshProUGUI optionOneText;
-    [SerializeField] TextMeshProUGUI optionTwoText;
+    public TextMeshProUGUI screenText;
+    public TextMeshProUGUI ansOne;
+    public TextMeshProUGUI ansTwo;
 
-    private void Start()
+    public bool hideAfter;
+    public bool isHidden;
+
+    public GameEvents ge;
+
+    public Animator scrollViewUI;
+
+    public void OnEnable()
+    {
+        GameEvents.hsv += HideScrollView;
+        GameEvents.ssv += ShowScrollView;
+    }
+    public void OnDisable()
+    {
+        GameEvents.hsv -= HideScrollView;
+        GameEvents.ssv -= ShowScrollView;
+    }
+    void Awake()
     {
         template = templatesArray[0];
-        ShowText();
+        ShowTexts();
+        isHidden = false;
     }
 
-    void ShowText()
+    public void ShowTexts()
     {
-        narrativeText.text = template.narrativeText;
-        optionOneText.text = template.optionOne;
-        optionTwoText.text = template.optionTwo;
+        screenText.text = template.narrativeText.ToString();
+        ansOne.text = template.optionOne.ToString();
+        ansTwo.text = template.optionTwo.ToString();
+        hideAfter = template.hideAfter;
     }
 
-    public void ButtonsManager(int index)
+    public void ButtonAction(int index)
     {
-        template = templatesArray[template.refsArray[index]];
-        ShowText();
+        if (hideAfter == true)
+        {
+            ge.HSV();
+        }
+        else
+        {
+            template = templatesArray[template.refArray[index]];
+            ShowTexts();
+        }
+    }
+
+    public void StorySelector(int index)
+    {
+        ge.SSV();
+        template = templatesArray[index];
+        ShowTexts();
+
+    }
+
+    void HideScrollView()
+    {
+        scrollViewUI.SetTrigger("HideScrollView");
+        isHidden = true;
+    }
+
+    void ShowScrollView()
+    {
+        scrollViewUI.SetTrigger("ShowScrollView");
+        isHidden = false;
     }
 }

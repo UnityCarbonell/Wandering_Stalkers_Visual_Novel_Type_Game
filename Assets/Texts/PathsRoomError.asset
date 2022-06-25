@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
-  m_Name: PathsIntro
+  m_Name: PathsRoomError
   m_EditorClassIdentifier: 
-  narrativeText: "As\xED que aqu\xED estamos. \nEn tu habitaci\xF3n. \nTe acabas
-    de despertar, por si no te hab\xEDas dado cuenta. \xBFQu\xE9 har\xE1s ahora?"
-  optionOne: 0
-  optionTwo: 0
-  refsArray: 0000000000000000
-  quitButtons: 1
+  narrativeText: "Lo siento. Esta historia a\xFAn no esta escrita"
+  optionOne: SIGUIENTE
+  optionTwo: SIGUIENTE
+  hideAfter: 1

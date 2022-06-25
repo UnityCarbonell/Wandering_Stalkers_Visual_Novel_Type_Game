@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu (menuName = "TextObject")]
+[CreateAssetMenu (menuName = "TextObj")]
 public class TextTemplate : ScriptableObject
 {
     [TextArea(3, 15)]
@@ -11,8 +11,8 @@ public class TextTemplate : ScriptableObject
     public string optionTwo;
 
     [Space(20)]
-    public int[] refsArray = new int[2];
+    public int[] refArray = new int[2];
 
     [Space(20)]
-    public bool quitButtons;
+    public bool hideAfter;
 }
