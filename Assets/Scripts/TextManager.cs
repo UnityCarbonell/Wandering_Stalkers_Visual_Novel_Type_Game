@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class TextManager : MonoBehaviour
@@ -12,7 +11,12 @@ public class TextManager : MonoBehaviour
     public TextMeshProUGUI ansTwo;
 
     public bool hideAfter;
-    public bool isHidden;
+    public bool hasEvent;
+    public bool hasCoice;
+
+    public string eventTag;
+
+    public int branchTag;
 
     public GameEvents ge;
 
@@ -32,7 +36,6 @@ public class TextManager : MonoBehaviour
     {
         template = templatesArray[0];
         ShowTexts();
-        isHidden = false;
     }
 
     public void ShowTexts()
@@ -41,18 +44,45 @@ public class TextManager : MonoBehaviour
         ansOne.text = template.optionOne.ToString();
         ansTwo.text = template.optionTwo.ToString();
         hideAfter = template.hideAfter;
+        hasEvent = template.hasEvent;
+        hasCoice = template.hasChoice;
+        eventTag = template.eventTag.ToString();
+        //branchTag = template.branchTag.
     }
 
     public void ButtonAction(int index)
     {
-        if (hideAfter == true)
+        if (hasEvent == true)
         {
-            ge.HSV();
+            if (hasCoice == true)
+            {
+
+            }
+            else
+            {
+                ge.TaggedEvents(eventTag);
+                if (hideAfter == true)
+                {
+                    ge.HSV();
+                }
+                else
+                {
+                    template = templatesArray[template.refArray[index]];
+                    ShowTexts();
+                }
+            }
         }
         else
         {
-            template = templatesArray[template.refArray[index]];
-            ShowTexts();
+            if (hideAfter == true)
+            {
+                ge.HSV();
+            }
+            else
+            {
+                template = templatesArray[template.refArray[index]];
+                ShowTexts();
+            }
         }
     }
 
@@ -61,18 +91,15 @@ public class TextManager : MonoBehaviour
         ge.SSV();
         template = templatesArray[index];
         ShowTexts();
-
     }
 
     void HideScrollView()
     {
         scrollViewUI.SetTrigger("HideScrollView");
-        isHidden = true;
     }
 
     void ShowScrollView()
     {
         scrollViewUI.SetTrigger("ShowScrollView");
-        isHidden = false;
     }
 }

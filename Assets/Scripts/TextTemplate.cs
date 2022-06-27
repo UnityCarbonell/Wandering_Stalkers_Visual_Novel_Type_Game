@@ -15,4 +15,10 @@ public class TextTemplate : ScriptableObject
 
     [Space(20)]
     public bool hideAfter;
+    public bool hasEvent;
+    public bool hasChoice;
+
+    [Space(20)]
+    public string eventTag;
+    public string branchTag;
 }

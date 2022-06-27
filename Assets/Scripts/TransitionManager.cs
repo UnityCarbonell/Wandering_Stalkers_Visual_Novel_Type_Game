@@ -3,9 +3,19 @@ using UnityEngine.SceneManagement;
 
 public class TransitionManager : MonoBehaviour
 {
-    public void NotYet()
+
+    public void OnEnable()
     {
-        Debug.LogWarning("This story has not been written yet");
+        GameEvents.so += ToStoryOne;
+    }
+    public void OnDisable()
+    {
+        GameEvents.so -= ToStoryOne;
+    }
+
+    public void ToStoryOne()
+    {
+        SceneManager.LoadScene("StoryOne");
     }
 
     public void ToPR()
