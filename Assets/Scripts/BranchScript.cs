@@ -8,21 +8,18 @@ public class BranchScript : MonoBehaviour
 
     protected virtual void OnEnable()
     {
-        GameEvents.somb += IncreaseVar;
-        GameEvents.socb += HideBranch;
+        GameEvents.ba += IncreaseVar;
     }
     protected virtual void OnDisable()
     {
-        GameEvents.somb -= IncreaseVar;
-        GameEvents.socb -= HideBranch;
+        GameEvents.ba -= IncreaseVar;
     }
-    public void Awake()
+    protected virtual void Awake()
     {
         sceneOnDisplay = 0;
         SceneDisplay(sceneOnDisplay);
-        gameObject.SetActive(true);
     }
-    void SceneDisplay(int index)
+    protected void SceneDisplay(int index)
     {
         foreach (GameObject item in branchScenes)
         {
@@ -34,10 +31,5 @@ public class BranchScript : MonoBehaviour
     {
         sceneOnDisplay++;
         SceneDisplay(sceneOnDisplay);
-    }
-
-    void HideBranch()
-    {
-        gameObject.SetActive(false);
     }
 }

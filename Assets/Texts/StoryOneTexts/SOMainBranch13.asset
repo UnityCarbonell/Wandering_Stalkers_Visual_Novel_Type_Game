@@ -16,9 +16,9 @@ MonoBehaviour:
     esto merece la atenci\xF3n de Dios?"
   optionOne: Salvar a la chica.
   optionTwo: Ignorarla y cruzar la calle.
-  refArray: 0000000000000000
+  refArray: 0d0000000d000000
   hideAfter: 0
   hasEvent: 1
   hasChoice: 1
-  eventTag: SOChooseBranch
-  branchTag: 
+  eventTag: ChooseBranch
+  branchTag: 1

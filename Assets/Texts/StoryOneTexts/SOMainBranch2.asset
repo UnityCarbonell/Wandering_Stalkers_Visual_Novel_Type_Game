@@ -19,4 +19,6 @@ MonoBehaviour:
   refArray: 0200000002000000
   hideAfter: 0
   hasEvent: 1
-  eventTag: SOMainBranch
+  hasChoice: 0
+  eventTag: NextScene
+  branchTag: 

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using TMPro;
 
@@ -47,7 +48,6 @@ public class TextManager : MonoBehaviour
         hasEvent = template.hasEvent;
         hasCoice = template.hasChoice;
         eventTag = template.eventTag.ToString();
-        //branchTag = template.branchTag.
     }
 
     public void ButtonAction(int index)
@@ -56,20 +56,14 @@ public class TextManager : MonoBehaviour
         {
             if (hasCoice == true)
             {
-
+                branchTag = Convert.ToInt32(template.branchTag);
+                ge.ChooseEvent(eventTag, branchTag);
             }
             else
             {
                 ge.TaggedEvents(eventTag);
-                if (hideAfter == true)
-                {
-                    ge.HSV();
-                }
-                else
-                {
-                    template = templatesArray[template.refArray[index]];
-                    ShowTexts();
-                }
+                template = templatesArray[template.refArray[index]];
+                ShowTexts();
             }
         }
         else

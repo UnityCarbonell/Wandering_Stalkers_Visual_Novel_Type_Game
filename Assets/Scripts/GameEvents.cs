@@ -13,11 +13,11 @@ public class GameEvents : MonoBehaviour
     public delegate void StoryOne();
     public static event StoryOne so;
 
-    public delegate void SOMainBranch();
-    public static event SOMainBranch somb;
+    public delegate void BranchAvance();
+    public static event BranchAvance ba;
 
-    public delegate void SOChosenBranch();
-    public static event SOChosenBranch socb;
+    public delegate void ChosenBranch(int branch);
+    public static event ChosenBranch cb;
 
     public void HSV()
     {
@@ -41,25 +41,21 @@ public class GameEvents : MonoBehaviour
             {
                 so();
             }
-            if (eventTag == "SOMainBranch")
+            if (eventTag == "NextScene")
             {
-                somb();
-                SSV();
+                ba();
             }
         }
     }
 
-    public void ChooceEvent(string eventTag, int index)
+    public void ChooseEvent(string eventTag, int index)
     {
-        if (eventTag == "SOChooseBranch")
+        if (eventTag == "ChooseBranch")
         {
-            socb();
-            /*
-            if ()
+            if (index == 1)
             {
-
+                cb(1);
             }
-            */
         }
     }
 }
