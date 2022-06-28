@@ -57,7 +57,7 @@ public class TextManager : MonoBehaviour
             if (hasCoice == true)
             {
                 branchTag = Convert.ToInt32(template.branchTag);
-                ge.ChooseEvent(eventTag, branchTag);
+                ge.ChooseEvent(eventTag, branchTag, index);
             }
             else
             {

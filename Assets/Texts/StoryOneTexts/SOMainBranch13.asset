@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOMainBranch13
   m_EditorClassIdentifier: 
-  narrativeText: "La van a atropellar. A menos que haga algo. Pero, \xBFalgo como
-    esto merece la atenci\xF3n de Dios?"
+  narrativeText: "IMPARABLE:\nLa van a atropellar. A menos que haga algo. Pero, \xBFalgo
+    como esto merece la atenci\xF3n de Dios?"
   optionOne: Salvar a la chica.
   optionTwo: Ignorarla y cruzar la calle.
   refArray: 0d0000000d000000

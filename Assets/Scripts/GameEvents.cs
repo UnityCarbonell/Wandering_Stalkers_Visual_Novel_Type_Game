@@ -48,13 +48,16 @@ public class GameEvents : MonoBehaviour
         }
     }
 
-    public void ChooseEvent(string eventTag, int index)
+    public void ChooseEvent(string eventTag, int choice,int index)
     {
         if (eventTag == "ChooseBranch")
         {
-            if (index == 1)
+            if (choice == 1)
             {
-                cb(1);
+                if (index == 0)
+                {
+                    cb(1);
+                }
             }
         }
     }

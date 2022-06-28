@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFirstBranch1
   m_EditorClassIdentifier: 
-  narrativeText: Estas por tu cuenta.
+  narrativeText: 'IMPARABLE:
+
+    Estas por tu cuenta.'
   optionOne: SIGUENTE
   optionTwo: SIGUENTE
   refArray: 0e0000000e000000

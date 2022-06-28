@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOMainBranch2
   m_EditorClassIdentifier: 
-  narrativeText: Yo soy imparable. No importa ni mi rostro ni mi nombre. Solo importa
-    que no puedo ser detenido.
+  narrativeText: 'IMPARABLE:
+
+    Yo soy imparable. No importa ni mi rostro ni mi
+    nombre. Solo importa que no puedo ser detenido.'
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 0200000002000000
