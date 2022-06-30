@@ -4,23 +4,25 @@ using TMPro;
 
 public class TextManager : MonoBehaviour
 {
+    //Text templates
     [SerializeField] TextTemplate template;
     [SerializeField] TextTemplate[] templatesArray;
 
+    //Text Templates Content
     public TextMeshProUGUI screenText;
     public TextMeshProUGUI ansOne;
     public TextMeshProUGUI ansTwo;
-
     public bool hideAfter;
     public bool hasEvent;
     public bool hasCoice;
-
     public string eventTag;
-
     public int branchTag;
 
+    //Game Events
     public GameEvents ge;
 
+    //Hide or Show Scrollview
+    public bool hidden;
     public Animator scrollViewUI;
 
     public void OnEnable()
@@ -35,6 +37,7 @@ public class TextManager : MonoBehaviour
     }
     void Awake()
     {
+        hidden = false;
         template = templatesArray[0];
         ShowTexts();
     }
@@ -59,6 +62,14 @@ public class TextManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             ButtonAction(1);
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && hidden == false)
+        {
+            HideScrollView();
+        }
+        else if (Input.GetKeyDown(KeyCode.Space) && hidden == true)
+        {
+            ShowScrollView();
         }
     }
 
@@ -102,10 +113,12 @@ public class TextManager : MonoBehaviour
     void HideScrollView()
     {
         scrollViewUI.SetTrigger("HideScrollView");
+        hidden = true;
     }
 
     void ShowScrollView()
     {
         scrollViewUI.SetTrigger("ShowScrollView");
+        hidden = false;
     }
 }

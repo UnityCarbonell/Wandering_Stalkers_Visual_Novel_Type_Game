@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOMainBranch3
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nTodo el mundo es m\xE1s d\xE9bil que yo. Todos est\xE1n
+  narrativeText: "\nIMPARABLE:\nTodo el mundo es m\xE1s d\xE9bil que yo. Todos est\xE1n
     a mi merced. Yo controlo el tiempo. Puedo detenerlo a voluntad. Soy su maestro
-    y \xE9l es mi esclavo. Yo puedo detener el tiempo a voluntad."
+    y \xE9l es mi esclavo. Yo puedo detener el tiempo a voluntad.\n"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 0300000003000000

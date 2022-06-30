@@ -18,4 +18,6 @@ MonoBehaviour:
   refArray: 0100000001000000
   hideAfter: 0
   hasEvent: 0
+  hasChoice: 0
   eventTag: 
+  branchTag: 
