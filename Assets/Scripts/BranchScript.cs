@@ -9,10 +9,12 @@ public class BranchScript : MonoBehaviour
     protected virtual void OnEnable()
     {
         GameEvents.ba += IncreaseVar;
+        GameEvents.cb += ResetVar;
     }
     protected virtual void OnDisable()
     {
         GameEvents.ba -= IncreaseVar;
+        GameEvents.cb -= ResetVar;
     }
     protected virtual void Awake()
     {
@@ -30,6 +32,13 @@ public class BranchScript : MonoBehaviour
     void IncreaseVar()
     {
         sceneOnDisplay++;
+        SceneDisplay(sceneOnDisplay);
+    }
+
+    void ResetVar(int index)
+    {
+        Debug.Log("Displaying branch no." + index.ToString() + ".");
+        sceneOnDisplay = 0;
         SceneDisplay(sceneOnDisplay);
     }
 }

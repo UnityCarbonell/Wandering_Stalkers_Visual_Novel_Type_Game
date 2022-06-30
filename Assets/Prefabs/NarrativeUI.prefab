@@ -699,12 +699,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   template: {fileID: 0}
   templatesArray:
-  - {fileID: 11400000, guid: 50f2f61f39bf5d14ca4a5def23634957, type: 2}
-  - {fileID: 11400000, guid: 86f797ea094995f48a6db9164f62cdc1, type: 2}
+  - {fileID: 11400000, guid: 84d6dad35b21e584ebb533ffe0bd916a, type: 2}
+  - {fileID: 11400000, guid: f05f97cae5d9e374ca19895e85d5dd87, type: 2}
+  - {fileID: 11400000, guid: 8e02336692f0d5a45abed0e954a7591f, type: 2}
+  - {fileID: 11400000, guid: 0fe4cba8095e82547a7fd27fba4150e4, type: 2}
+  - {fileID: 11400000, guid: bc2324b2fae21ca459e376646fd2b34c, type: 2}
+  - {fileID: 11400000, guid: 2962abc9198d4c34893845aae07985b6, type: 2}
+  - {fileID: 11400000, guid: e8b3ecd8df93ea64d91092c41c715f1e, type: 2}
+  - {fileID: 11400000, guid: d0c445ff4fcf9964a898c7aa2ac2b06a, type: 2}
+  - {fileID: 11400000, guid: 2687fb14df0157d4f9eadd98eaec1fc1, type: 2}
+  - {fileID: 11400000, guid: 7dd18467082f4cd47b7fb710079aa0a7, type: 2}
+  - {fileID: 11400000, guid: bb8af306c61312a459b65e78f15cecbf, type: 2}
+  - {fileID: 11400000, guid: 00f5bf480de991e49a8f2667aff9a7c9, type: 2}
+  - {fileID: 11400000, guid: 69574d434e8e51a4cadf47469d55667e, type: 2}
+  - {fileID: 11400000, guid: 9fcd42735e5af8d49bea32f87446b7a5, type: 2}
+  - {fileID: 11400000, guid: d307c7e95097bf343b850dd0f9e6856a, type: 2}
+  - {fileID: 11400000, guid: 75b380504ca9b8e4b82775c59eb0cd00, type: 2}
+  - {fileID: 11400000, guid: 5d4a70012311be043bf7f789650fe741, type: 2}
+  - {fileID: 11400000, guid: df2971ef3248d794590ce62155daaf2f, type: 2}
   screenText: {fileID: 233361234159533020}
   ansOne: {fileID: 233361232806165359}
   ansTwo: {fileID: 233361234670243502}
   hideAfter: 0
+  hasEvent: 0
+  hasCoice: 0
+  eventTag: 
+  branchTag: 0
   ge: {fileID: 0}
   scrollViewUI: {fileID: 233361234641640286}
 --- !u!1 &233361234159533010
@@ -1059,7 +1079,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
-  m_Name: SOFirstBranch1
+  m_Name: SOFirstBranch3
   m_EditorClassIdentifier: 
   narrativeText: 'IMPARABLE:
 
-    Estas por tu cuenta.
+    Esa es mi voluntad div...
 
 '
   optionOne: SIGUENTE
   optionTwo: SIGUENTE
-  refArray: 0e0000000e000000
+  refArray: 1000000010000000
   hideAfter: 0
-  hasEvent: 1
+  hasEvent: 0
   hasChoice: 0
-  eventTag: NextScene
+  eventTag: 
   branchTag: 

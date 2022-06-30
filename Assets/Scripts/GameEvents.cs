@@ -58,6 +58,10 @@ public class GameEvents : MonoBehaviour
                 {
                     cb(1);
                 }
+                else if (index == 1)
+                {
+                    cb(2);
+                }
             }
         }
     }

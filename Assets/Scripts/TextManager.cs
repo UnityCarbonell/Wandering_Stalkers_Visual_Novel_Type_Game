@@ -50,6 +50,18 @@ public class TextManager : MonoBehaviour
         eventTag = template.eventTag.ToString();
     }
 
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            ButtonAction(0);
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            ButtonAction(1);
+        }
+    }
+
     public void ButtonAction(int index)
     {
         if (hasEvent == true)
@@ -62,9 +74,9 @@ public class TextManager : MonoBehaviour
             else
             {
                 ge.TaggedEvents(eventTag);
-                template = templatesArray[template.refArray[index]];
-                ShowTexts();
             }
+            template = templatesArray[template.refArray[index]];
+            ShowTexts();
         }
         else
         {
