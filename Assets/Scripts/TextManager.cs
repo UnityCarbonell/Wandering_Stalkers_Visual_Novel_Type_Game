@@ -75,30 +75,33 @@ public class TextManager : MonoBehaviour
 
     public void ButtonAction(int index)
     {
-        if (hasEvent == true)
+        if (hidden == false)
         {
-            if (hasCoice == true)
+            if (hasEvent == true)
             {
-                branchTag = Convert.ToInt32(template.branchTag);
-                ge.ChooseEvent(eventTag, branchTag, index);
-            }
-            else
-            {
-                ge.TaggedEvents(eventTag);
-            }
-            template = templatesArray[template.refArray[index]];
-            ShowTexts();
-        }
-        else
-        {
-            if (hideAfter == true)
-            {
-                ge.HSV();
-            }
-            else
-            {
+                if (hasCoice == true)
+                {
+                    branchTag = Convert.ToInt32(template.branchTag);
+                    ge.ChooseEvent(eventTag, branchTag, index);
+                }
+                else
+                {
+                    ge.TaggedEvents(eventTag);
+                }
                 template = templatesArray[template.refArray[index]];
                 ShowTexts();
+            }
+            else
+            {
+                if (hideAfter == true)
+                {
+                    ge.HSV();
+                }
+                else
+                {
+                    template = templatesArray[template.refArray[index]];
+                    ShowTexts();
+                }
             }
         }
     }
