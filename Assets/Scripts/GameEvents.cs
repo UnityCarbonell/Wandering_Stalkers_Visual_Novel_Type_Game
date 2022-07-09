@@ -63,6 +63,17 @@ public class GameEvents : MonoBehaviour
                     cb(2);
                 }
             }
+            if (choice == 2)
+            {
+                if (index == 0)
+                {
+                    cb(3);
+                }
+                else if (index == 1)
+                {
+                    cb(4);
+                }
+            }
         }
     }
 }
