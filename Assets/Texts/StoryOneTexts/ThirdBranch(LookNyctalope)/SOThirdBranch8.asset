@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   narrativeText: "NICTALOPE:\nC\xE1llate. Ven aqu\xED. No huyas otra vez."
   optionOne: Huir
-  optionTwo: Acercarce
+  optionTwo: Acercarse
   refArray: 2700000027000000
   hideAfter: 0
   hasEvent: 1
