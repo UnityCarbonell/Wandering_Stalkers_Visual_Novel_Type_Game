@@ -15,7 +15,7 @@ MonoBehaviour:
   narrativeText: "NICTALOPE:\n\xBFQu\xE9 har\xE1s ahora?"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
-  refArray: 3a0000003a000000
+  refArray: 3b0000003b000000
   hideAfter: 0
   hasEvent: 0
   hasChoice: 0

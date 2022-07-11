@@ -35,9 +35,9 @@ public class BranchScript : MonoBehaviour
         SceneDisplay(sceneOnDisplay);
     }
 
-    void ResetVar(int index)
+    void ResetVar(int index, string branchName)
     {
-        Debug.Log("Displaying branch no." + index.ToString() + ".");
+        Debug.Log("Displaying branch no." + index.ToString() + ": " + branchName + ".");
         sceneOnDisplay = 0;
         SceneDisplay(sceneOnDisplay);
     }

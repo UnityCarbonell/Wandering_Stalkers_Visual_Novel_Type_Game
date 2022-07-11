@@ -15,7 +15,7 @@ MonoBehaviour:
   narrativeText: "NICTALOPE:\nC\xE1llate. Ven aqu\xED. No huyas otra vez."
   optionOne: Huir
   optionTwo: Acercarse
-  refArray: 2700000027000000
+  refArray: 4100000027000000
   hideAfter: 0
   hasEvent: 1
   hasChoice: 1

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
+  m_Name: SOFifthBranch19
+  m_EditorClassIdentifier: 
+  narrativeText: "IMPARABLE:\nPero si me\r equivoco, estar\xEDa acorralado."
+  optionOne: "Correr hacia el subterr\xE1neo."
+  optionTwo: Correr hacia el rascacielos.
+  refArray: 5300000053000000
+  hideAfter: 0
+  hasEvent: 1
+  hasChoice: 1
+  eventTag: ChooseBranch
+  branchTag: 

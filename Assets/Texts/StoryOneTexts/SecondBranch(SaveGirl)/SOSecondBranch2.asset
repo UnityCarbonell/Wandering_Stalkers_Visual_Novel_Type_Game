@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSecondBranch2
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\n\xA1Pesa bastante! \xA1Es como\r una estatua!"
+  narrativeText: "IMPARABLE:\n\xA1Pesa bastante! \n\xA1Es como\r \nuna estatua!"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 1400000014000000

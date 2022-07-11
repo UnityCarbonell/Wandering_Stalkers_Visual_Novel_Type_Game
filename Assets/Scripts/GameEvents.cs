@@ -16,7 +16,7 @@ public class GameEvents : MonoBehaviour
     public delegate void BranchAvance();
     public static event BranchAvance ba;
 
-    public delegate void ChosenBranch(int branch);
+    public delegate void ChosenBranch(int branch, string branchName);
     public static event ChosenBranch cb;
 
     public void HSV()
@@ -56,22 +56,33 @@ public class GameEvents : MonoBehaviour
             {
                 if (index == 0)
                 {
-                    cb(1);
+                    cb(1, "IgnoreGirl");
                 }
                 else if (index == 1)
                 {
-                    cb(2);
+                    cb(2, "SaveGirl");
                 }
             }
             if (choice == 2)
             {
                 if (index == 0)
                 {
-                    cb(3);
+                    cb(3, "LookNyctalope");
                 }
                 else if (index == 1)
                 {
-                    cb(4);
+                    cb(4, "IgnoreNyctalope");
+                }
+            }
+            if (choice == 3)
+            {
+                if (index == 0)
+                {
+                    cb(5, "RunOfNyctalope");
+                }
+                else if (index == 1)
+                {
+                    cb(6, "AproachNyctalope");
                 }
             }
         }

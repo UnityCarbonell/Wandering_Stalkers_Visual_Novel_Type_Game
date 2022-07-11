@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFirstBranch2
   m_EditorClassIdentifier: 
-  narrativeText: "IMAPARABLE:\nSi te matan es tu\r culpa."
+  narrativeText: "IMAPARABLE:\nSi te matan es tu\r \nculpa."
   optionOne: SIGUENTE
   optionTwo: SIGUENTE
   refArray: 0f0000000f000000

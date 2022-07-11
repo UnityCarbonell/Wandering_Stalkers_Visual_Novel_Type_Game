@@ -15,9 +15,9 @@ MonoBehaviour:
   narrativeText: "NICTALOPE:\n\xA1Jajajajajajaja!"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
-  refArray: 3d0000003d000000
+  refArray: 3e0000003e000000
   hideAfter: 0
-  hasEvent: 1
+  hasEvent: 0
   hasChoice: 0
-  eventTag: NextScene
+  eventTag: 
   branchTag: 

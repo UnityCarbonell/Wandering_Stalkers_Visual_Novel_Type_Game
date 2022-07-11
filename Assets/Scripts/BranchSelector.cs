@@ -26,7 +26,7 @@ public class BranchSelector : MonoBehaviour
         }
     }
 
-    public void ShowBranch(int branch)
+    public void ShowBranch(int branch, string aux)
     {
         HideAllBranches();
         branches[branch].gameObject.SetActive(true);

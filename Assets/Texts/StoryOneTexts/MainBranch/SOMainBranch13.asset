@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   narrativeText: "IMPARABLE:\nLa van a atropellar. A menos que haga algo. Pero, \xBFalgo
     como esto merece la atenci\xF3n de Dios?"
-  optionOne: 'Ignorarla y cruzar la calle. '
+  optionOne: 'Ignorarla. '
   optionTwo: Salvar a la chica.
   refArray: 0d00000012000000
   hideAfter: 0

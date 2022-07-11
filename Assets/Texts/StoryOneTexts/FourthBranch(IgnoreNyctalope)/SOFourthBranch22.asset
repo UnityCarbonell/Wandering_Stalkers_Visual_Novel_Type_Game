@@ -16,7 +16,7 @@ MonoBehaviour:
     tu voluntad divina?"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
-  refArray: 3c0000003c000000
+  refArray: 3d0000003d000000
   hideAfter: 0
   hasEvent: 1
   hasChoice: 0
