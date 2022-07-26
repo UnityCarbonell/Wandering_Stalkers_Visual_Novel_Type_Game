@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: SOFifthBranch19
   m_EditorClassIdentifier: 
   narrativeText: "IMPARABLE:\nPero si me\r equivoco, estar\xEDa acorralado."
-  optionOne: "Correr hacia el subterr\xE1neo."
-  optionTwo: Correr hacia el rascacielos.
+  optionOne: "Subterr\xE1neo."
+  optionTwo: Rascacielos.
   refArray: 5300000053000000
   hideAfter: 0
   hasEvent: 1
