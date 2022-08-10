@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSixthBranch29
   m_EditorClassIdentifier: 
-  narrativeText: "NICTALOPE:\nUn oficinista que vive con sus dos\r hermanos par\xE1sitos,"
+  narrativeText: 
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 7100000071000000
