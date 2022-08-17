@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: PathsRoomError
   m_EditorClassIdentifier: 
-  narrativeText: "Lo siento. Esta historia a\xFAn no esta escrita"
+  narrativeText: "Lo siento. \nEsta historia a\xFAn no esta escrita"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
+  refArray: 0000000000000000
   hideAfter: 1
+  hasEvent: 0
+  hasChoice: 0
+  eventTag: 
+  branchTag: 

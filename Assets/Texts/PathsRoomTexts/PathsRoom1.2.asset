@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: PathsRoom1.2
   m_EditorClassIdentifier: 
-  narrativeText: "Buena idea, esta pel\xEDcula es entretenida. Empieza con un hombre
-    en la calle..."
+  narrativeText: "Buena idea, \nesta pel\xEDcula es entretenida. \nEmpieza con un
+    hombre en la calle..."
   optionOne: CONTINUAR
   optionTwo: CONTINUAR
   refArray: 0000000000000000
   hideAfter: 1
   hasEvent: 1
+  hasChoice: 0
   eventTag: StoryOne
+  branchTag: 

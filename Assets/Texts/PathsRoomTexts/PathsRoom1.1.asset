@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: PathsRoom1.1
   m_EditorClassIdentifier: 
-  narrativeText: Como quieras. Es tarde de todas formas.
+  narrativeText: "Como quieras. \nEs tarde de todas formas."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
+  refArray: 0000000000000000
   hideAfter: 1
+  hasEvent: 0
+  hasChoice: 0
+  eventTag: 
+  branchTag: 

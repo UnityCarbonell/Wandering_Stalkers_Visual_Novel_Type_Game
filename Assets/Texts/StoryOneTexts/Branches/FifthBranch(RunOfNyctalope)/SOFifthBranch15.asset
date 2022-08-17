@@ -20,5 +20,5 @@ MonoBehaviour:
   hideAfter: 0
   hasEvent: 1
   hasChoice: 0
-  eventTag: Nextscene
+  eventTag: NextScene
   branchTag: 

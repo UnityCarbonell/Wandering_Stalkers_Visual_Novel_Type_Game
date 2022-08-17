@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: PathsRoom0
   m_EditorClassIdentifier: 
-  narrativeText: "As\xED que aqu\xED estamos. En tu habitaci\xF3n. Te acabas de despertar,
-    por si no te hab\xEDas dado cuenta. \xBFQu\xE9 har\xE1s ahora?"
+  narrativeText: "As\xED que aqu\xED estamos. \nEn tu habitaci\xF3n. \nTe acabas
+    de despertar, \npor si no te hab\xEDas dado cuenta. \n\xBFQu\xE9 har\xE1s ahora?"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
+  refArray: 0000000000000000
   hideAfter: 1
+  hasEvent: 0
+  hasChoice: 0
+  eventTag: 
+  branchTag: 

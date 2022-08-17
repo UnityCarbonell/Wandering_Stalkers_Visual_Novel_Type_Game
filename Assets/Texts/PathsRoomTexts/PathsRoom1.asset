@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: PathsRoom1
   m_EditorClassIdentifier: 
-  narrativeText: "Faltan algunas horas para que suene la alarma. \xBFY si vez una
-    pel\xEDcula?"
+  narrativeText: "Faltan algunas horas \npara que suene la alarma. \n\xBFY si vez
+    una pel\xEDcula?"
   optionOne: Si
   optionTwo: No
   refArray: 0300000002000000
   hideAfter: 0
+  hasEvent: 0
+  hasChoice: 0
+  eventTag: 
+  branchTag: 
