@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFourthBranch22
   m_EditorClassIdentifier: 
-  narrativeText: "NICTALOPE:\n\xBFO har\xE1s algo est\xFApido y\r te escudaras con
-    tu voluntad divina?"
+  narrativeText: "NICTALOPE:\n\xBFO har\xE1s algo est\xFApido y\r \nte escudaras
+    con tu voluntad divina?"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 3d0000003d000000

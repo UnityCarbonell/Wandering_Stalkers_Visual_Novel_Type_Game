@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFifthBranch12
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nCuando el tiempo\r no corre; \xE9l se hace presente."
+  narrativeText: "IMPARABLE:\nCuando el tiempo\r \nno corre; \xE9l se hace presente."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 4d0000004d000000

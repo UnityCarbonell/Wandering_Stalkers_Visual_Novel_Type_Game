@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFourthBranch15
   m_EditorClassIdentifier: 
-  narrativeText: "NICTALOPE:\nQue\r tontear\xEDa."
+  narrativeText: "NICTALOPE:\nQue gran tonter\xEDa."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 3600000036000000

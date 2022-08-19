@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSixthBranch26
   m_EditorClassIdentifier: 
-  narrativeText: "NICTALOPE:\n\xA1No eres Dios,\r idiota!"
+  narrativeText: "NICTALOPE:\n\xA1No eres Dios,\nidiota!"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 6e0000006e000000
   hideAfter: 0
-  hasEvent: 1
+  hasEvent: 0
   hasChoice: 0
-  eventTag: NextScene
+  eventTag: 
   branchTag: 

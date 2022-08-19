@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFourthBranch7
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nTiene un nombre distinto. Uno que\r nunca hab\xEDa
-    le\xEDdo en la Biblia."
+  narrativeText: "IMPARABLE:\nSe llama distinto.\nUn nombre que nunca hab\xEDa\r\nle\xEDdo
+    en la Biblia."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 2e0000002e000000

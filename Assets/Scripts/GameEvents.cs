@@ -85,6 +85,17 @@ public class GameEvents : MonoBehaviour
                     cb(6, "AproachNyctalope");
                 }
             }
+            if (choice == 4)
+            {
+                if (index == 0)
+                {
+                    cb(7, "RunToSubterranean");
+                }
+                else if (index == 1)
+                {
+                    cb(8, "RunToSkycraper");
+                }
+            }
         }
     }
 }

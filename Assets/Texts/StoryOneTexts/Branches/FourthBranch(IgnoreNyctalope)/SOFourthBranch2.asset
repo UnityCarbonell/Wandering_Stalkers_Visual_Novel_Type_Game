@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFourthBranch2
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nNo es real, no esta ah\xED. No es real,\r no esta ah\xED.
-    No es real, no esta ah\xED."
+  narrativeText: "IMPARABLE:\nNo es real, no esta ah\xED.\nNo es real, no esta ah\xED."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 2900000029000000

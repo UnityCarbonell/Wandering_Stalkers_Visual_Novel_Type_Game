@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFifthBranch17
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nJam\xE1s\r creer\xEDa que me encerrar\xEDa as\xED."
+  narrativeText: "IMPARABLE:\nNo pensar\xE1 \nque soy tan estupido."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 5200000052000000

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFourthBranch8
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nSe\r hace llamar el Nict\xE1lope."
+  narrativeText: "IMPARABLE:\nSe hace llamar\n\"Nict\xE1lope\"."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 2f0000002f000000

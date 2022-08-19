@@ -71,6 +71,12 @@ public class TextManager : MonoBehaviour
         {
             ShowScrollView();
         }
+
+        //For testing propouses
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            RechargeTexts();
+        }
     }
 
     public void ButtonAction(int index)
@@ -123,5 +129,13 @@ public class TextManager : MonoBehaviour
     {
         scrollViewUI.SetTrigger("ShowScrollView");
         hidden = false;
+    }
+
+    //For testing propouses
+    private void RechargeTexts()
+    {
+        screenText.text = template.narrativeText.ToString();
+
+        Debug.Log("Reolading Texts");
     }
 }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFourthBranch11
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nTengo que ir al trabajo. Creo que la\r estaci\xF3n
+  narrativeText: "IMPARABLE:\nTengo que ir al trabajo. Creo que la\r\nestaci\xF3n
     del subterr\xE1neo estaba por..."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE

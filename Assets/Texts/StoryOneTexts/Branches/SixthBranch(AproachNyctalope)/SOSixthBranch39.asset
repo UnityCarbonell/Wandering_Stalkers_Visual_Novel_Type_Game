@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSixthBranch39
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nSoy\r imparable."
+  narrativeText: 'IMPARABLE:
+
+    Yo soy imparable.'
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 7b0000007b000000

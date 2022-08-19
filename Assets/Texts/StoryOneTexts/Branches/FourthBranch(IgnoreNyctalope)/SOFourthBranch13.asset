@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFourthBranch13
   m_EditorClassIdentifier: 
-  narrativeText: "NICTALOPE:\nHasta que yo\r aparezco, tienes mil delirios de\r poder."
+  narrativeText: "NICTALOPE:\nHasta que yo aparezco, tienes mil delirios de\r \npoder."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 3400000034000000

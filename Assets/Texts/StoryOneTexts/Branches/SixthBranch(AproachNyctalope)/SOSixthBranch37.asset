@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSixthBranch37
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nPodr\xEDa robar el banco de la otra\r esquina"
+  narrativeText: "IMPARABLE:\nPodr\xEDa robar el banco de la otra\r\nesquina,"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 7900000079000000

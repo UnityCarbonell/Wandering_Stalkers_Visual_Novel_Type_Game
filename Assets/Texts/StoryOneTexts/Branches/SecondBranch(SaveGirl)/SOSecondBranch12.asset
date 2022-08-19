@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSecondBranch12
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nLa salv\xE9, despu\xE9s de\r todo."
+  narrativeText: "IMPARABLE:\nLa salv\xE9, \xBFNo es cierto?"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 1e0000001e000000

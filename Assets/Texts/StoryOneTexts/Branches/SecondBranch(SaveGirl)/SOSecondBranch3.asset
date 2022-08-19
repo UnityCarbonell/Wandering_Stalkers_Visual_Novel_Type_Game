@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSecondBranch3
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\n\xA1\xBFSe supone que as\xED \nfunciona\r la f\xEDsica
-    \ncuando detengo el tiempo?!"
+  narrativeText: "IMPARABLE:\n\xA1\xBFSe supone que as\xED funciona\r \nla f\xEDsica
+    cuando detengo el tiempo?!"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 1500000015000000

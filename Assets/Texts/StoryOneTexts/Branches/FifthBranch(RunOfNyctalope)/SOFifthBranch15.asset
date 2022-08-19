@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFifthBranch15
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nPero si no\r hay un tren en el anden, \xE9l me\r atrapara
-    seguro."
+  narrativeText: "IMPARABLE:\nPero si no\r \nhay un tren en el anden, \n\xE9l me
+    atrapar\xE1 seguro."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 5000000050000000

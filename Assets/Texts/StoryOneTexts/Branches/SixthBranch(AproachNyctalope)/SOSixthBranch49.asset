@@ -17,7 +17,7 @@ MonoBehaviour:
   optionTwo: SIGUIENTE
   refArray: 8500000085000000
   hideAfter: 0
-  hasEvent: 1
+  hasEvent: 0
   hasChoice: 0
-  eventTag: NextScene
+  eventTag: 
   branchTag: 

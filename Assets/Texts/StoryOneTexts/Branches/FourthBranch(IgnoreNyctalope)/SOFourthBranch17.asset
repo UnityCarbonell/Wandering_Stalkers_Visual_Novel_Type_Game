@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOFourthBranch17
   m_EditorClassIdentifier: 
-  narrativeText: "NICTALOPE:\nUn oficinista que vive\r con sus dos hermanos par\xE1sitos,
-    que\r tiene unos poderes que no comprende y\r que desperdicia."
+  narrativeText: "NICTALOPE:\nUn oficinista que vive con sus dos\nhermanos par\xE1sitos,
+    que\r \ntiene unos poderes que no comprende y\r \nque desperdicia."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 3800000038000000
