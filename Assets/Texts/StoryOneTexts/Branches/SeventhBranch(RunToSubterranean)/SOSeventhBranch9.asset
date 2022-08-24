@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSeventhBranch9
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nHoy\r tenia que ir a mi trabajo."
+  narrativeText: 'IMPARABLE:
+
+    Yo tenia que ir a mi trabajo.'
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 8f0000008f000000

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSeventhBranch8
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nHacia\r aqu\xED venia cuando \xE9l apareci\xF3."
+  narrativeText: "IMPARABLE:\nVenia hacia aqu\xED cuando \xE9l apareci\xF3."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 8e0000008e000000

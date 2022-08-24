@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSeventhBranch15
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nAnoche tuve una fiesta ah\xED.\r \xBFA\xFAn quedar\xE1
+  narrativeText: "IMPARABLE:\nAnoche tuve una fiesta ah\xED.\r \n\xBFA\xFAn quedar\xE1
     alguien?"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE

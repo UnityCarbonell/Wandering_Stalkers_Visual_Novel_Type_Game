@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSeventhBranch13
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nNecesito comer, y robar me\r parece indigno de un ser
-    superior como\r yo."
+  narrativeText: "IMPARABLE:\nNecesito comer, y robar me\r \nparece indigno de un
+    ser superior como\r \nyo."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 9300000093000000

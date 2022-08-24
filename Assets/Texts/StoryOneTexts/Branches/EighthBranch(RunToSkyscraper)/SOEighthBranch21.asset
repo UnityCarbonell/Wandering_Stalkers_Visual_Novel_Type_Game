@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
-  m_Name: SOSeventhBranch10
+  m_Name: SOEighthBranch21
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nEs un trabajo\r \nque odio, con un jefe que odio."
+  narrativeText: "NICTALOPE:\nUn oficinista que vive con sus dos\nhermanos par\xE1sitos"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
-  refArray: 9000000090000000
+  refArray: ad000000ad000000
   hideAfter: 0
   hasEvent: 0
   hasChoice: 0

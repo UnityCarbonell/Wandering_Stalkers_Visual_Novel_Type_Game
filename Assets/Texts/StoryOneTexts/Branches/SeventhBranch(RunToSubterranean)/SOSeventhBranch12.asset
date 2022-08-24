@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSeventhBranch12
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nPese a ser Dios, mi cuerpo es\r terrenal."
+  narrativeText: "IMPARABLE:\nSoy Dios, pero mi cuerpo es\r \nterrenal."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 9200000092000000

@@ -15,7 +15,7 @@ MonoBehaviour:
   narrativeText: "IMPARABLE:\nPero si no lo consigo,\nestar\xEDa acorralado."
   optionOne: "Subterr\xE1neo."
   optionTwo: Rascacielos.
-  refArray: 8600000053000000
+  refArray: 8600000098000000
   hideAfter: 0
   hasEvent: 1
   hasChoice: 1

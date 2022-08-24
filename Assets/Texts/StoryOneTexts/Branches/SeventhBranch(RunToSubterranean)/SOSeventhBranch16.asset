@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSeventhBranch16
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nMis hermanos\r seguro."
+  narrativeText: 'IMPARABLE:
+
+    Seguro que mis hermanos.'
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
   refArray: 9600000096000000

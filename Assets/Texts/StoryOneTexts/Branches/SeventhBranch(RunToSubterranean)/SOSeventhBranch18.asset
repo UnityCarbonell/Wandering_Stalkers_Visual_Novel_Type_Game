@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614e0cea38777f246b8014866e510416, type: 3}
   m_Name: SOSeventhBranch18
   m_EditorClassIdentifier: 
-  narrativeText: "IMPARABLE:\nSeguramente no\r habr\xE1n limpiado nada."
+  narrativeText: "IMPARABLE:\n\xA1Mierda! Seguro que no\nhabr\xE1n limpiado nada."
   optionOne: Ir a casa
   optionTwo: Ir al trabajo
   refArray: 9700000097000000
