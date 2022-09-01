@@ -15,7 +15,7 @@ MonoBehaviour:
   narrativeText: "IMPARABLE:\n\xBFQ-que estas haciendo?\r"
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
-  refArray: ba000000ba000000
+  refArray: bb000000bb000000
   hideAfter: 0
   hasEvent: 0
   hasChoice: 0

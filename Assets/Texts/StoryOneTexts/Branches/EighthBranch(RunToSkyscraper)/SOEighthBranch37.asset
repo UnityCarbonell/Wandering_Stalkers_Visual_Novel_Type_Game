@@ -15,7 +15,7 @@ MonoBehaviour:
   narrativeText: 
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
-  refArray: bc000000bc000000
+  refArray: bd000000bd000000
   hideAfter: 0
   hasEvent: 1
   hasChoice: 0

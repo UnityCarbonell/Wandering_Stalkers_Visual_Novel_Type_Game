@@ -15,7 +15,7 @@ MonoBehaviour:
   narrativeText: "NICTALOPE:\nJe; te lo die. No comprendes tus \rpoderes."
   optionOne: SIGUIENTE
   optionTwo: SIGUIENTE
-  refArray: b9000000b9000000
+  refArray: ba000000ba000000
   hideAfter: 0
   hasEvent: 1
   hasChoice: 0
